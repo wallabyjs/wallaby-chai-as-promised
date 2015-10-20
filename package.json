@@ -1,0 +1,28 @@
+{
+  "name": "wallaby-chai-as-promised",
+  "version": "1.0.0",
+  "description": "",
+  "main": "wallaby.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wallabyjs/wallaby-chai-as-promised.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wallabyjs/wallaby-chai-as-promised/issues"
+  },
+  "homepage": "https://github.com/wallabyjs/wallaby-chai-as-promised#readme",
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "chai-as-promised": "^5.1.0",
+    "es6-promise": "^3.0.2",
+    "phantomjs-polyfill": "0.0.1"
+  }
+}
