@@ -17,7 +17,7 @@ module.exports = function (wallaby) {
 
     testFramework: "mocha",
 
-    bootstrap: function () {
+    setup: function () {
       window.expect = chai.expect;
       var should = chai.should();
     }
